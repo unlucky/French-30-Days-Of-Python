@@ -33,37 +33,37 @@
 
 ## Built in functions
 
-In Python we have lots of built-in functions. Built-in functions are globally available for your use that mean you can make use of the built-in functions without importing or configuring. Some of the most commonly used Python built-in functions are the following: _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, _open()_, _file()_, _help()_, and _dir()_. In the following table you will see an exhaustive list of Python built-in functions taken from [python documentation](https://docs.python.org/3.9/library/functions.html).
+En Python, nous disposons de nombreuses fonctions intégrées. Les fonctions intégrées sont globalement disponibles, ce qui signifie que vous pouvez les utiliser sans les importer ni les configurer. Les fonctions intégrées les plus couramment utilisées en Python sont les suivantes : _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, _open()_, _file()_, _help()_, et _dir()_. Le tableau suivant présente une liste exhaustive des fonctions intégrées de Python, tirée de la [documentation python] (https://docs.python.org/3.9/library/functions.html).
 
 ![Built-in Functions](../images/builtin-functions.png)
 
-Let us open the Python shell and start using some of the most common built-in functions.
+Ouvrons l'interpréteur de commandes Python et commençons à utiliser certaines des fonctions intégrées les plus courantes.
 
 ![Built-in functions](../images/builtin-functions_practice.png)
 
-Let us practice more by using different built-in functions
+Pratiquons davantage en utilisant différentes fonctions intégrées
 
 ![Help and Dir Built in Functions](../images/help_and_dir_builtin.png)
 
-As you can see from the terminal above, Python has got reserved words. We do not use reserved words to declare variables or functions. We will cover variables in the next section.
+Comme vous pouvez le voir dans le terminal ci-dessus, Python possède des mots réservés. Nous n'utilisons pas de mots réservés pour déclarer des variables ou des fonctions. Nous aborderons les variables dans la section suivante.
 
-I believe, by now you are familiar with built-in functions. Let us do one more practice of built-in functions and we will move on to the next section.
+Je pense que vous êtes maintenant familiarisé avec les fonctions intégrées. Pratiquons encore une fois les fonctions intégrées et nous passerons à la section suivante.
 
 ![Min Max Sum](../images/builtin-functional-final.png)
 
 ## Variables
 
-Variables store data in a computer memory. Mnemonic variables are recommended to use in many programming languages. A mnemonic variable is a variable name that can be easily remembered and associated. A variable refers to a memory address in which data is stored.
-Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
+Les variables stockent des données dans la mémoire d'un ordinateur. Il est recommandé d'utiliser des variables mnémoniques dans de nombreux langages de programmation. Une variable mnémotechnique est un nom de variable qui peut être facilement mémorisé et associé. Une variable fait référence à une adresse mémoire dans laquelle des données sont stockées.
+Un numéro au début, un caractère spécial, un trait d'union ne sont pas autorisés pour nommer une variable. Une variable peut avoir un nom court (comme x, y, z), mais un nom plus descriptif (prénom, nom, âge, pays) est fortement recommandé.
 
-Python Variable Name Rules
+Règles de désignation des variables Python
 
-- A variable name must start with a letter or the underscore character
-- A variable name cannot start with a number
-- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and \_ )
-- Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME) are different variables)
+- Le nom d'une variable doit commencer par une lettre ou le caractère de soulignement.
+- Un nom de variable ne peut pas commencer par un chiffre
+- Un nom de variable ne peut contenir que des caractères alphanumériques et des traits de soulignement (A-z, 0-9 et \_ ).
+- Les noms de variables sont sensibles à la casse (prénom, Prénom et PRENOM sont des variables différentes).
 
-Here are some example of valid variable names:
+Voici quelques exemples de noms de variables valables :
 
 ```shell
 firstname
@@ -83,24 +83,25 @@ num1
 num2
 ```
 
-Invalid variables names
+Noms de variables invalides
 
 ```shell
 first-name
 first@name
 first$name
+first name
 num-1
 1num
 ```
 
-We will use standard Python variable naming style which has been adopted by many Python developers. Python developers use snake case(snake_case) variable naming convention. We use underscore character after each word for a variable containing more than one word(eg. first_name, last_name, engine_rotation_speed).  The example below is an example of standard naming of variables, underscore is required when the variable name is more than one word.
+Nous utiliserons le style standard de désignation des variables Python, qui a été adopté par de nombreux développeurs Python. Les développeurs Python utilisent la convention de dénomination des variables snake case (snake_case). Nous utilisons le caractère de soulignement après chaque mot pour une variable contenant plus d'un mot (par exemple, prénom, nom, vitesse de rotation du moteur).  L'exemple ci-dessous est un exemple de dénomination standard des variables, le caractère de soulignement est nécessaire lorsque le nom de la variable contient plus d'un mot.
 
-When we assign a certain data type to a variable, it is called variable declaration. For instance in the example below my first name is assigned to a variable first_name. The equal sign is an assignment operator. Assigning means storing data in the variable. The equal sign in Python is not equality as in Mathematics.
+Lorsque nous attribuons un certain type de données à une variable, il s'agit d'une déclaration de variable. Par exemple, dans l'exemple ci-dessous, mon prénom est assigné à la variable first_name. Le signe égal est un opérateur d'affectation. Assigner signifie stocker des données dans la variable. Le signe égal en Python n'est pas une égalité comme en mathématiques.
 
 _Example:_
 
 ```py
-# Variables in Python
+# Variables en Python
 first_name = 'Asabeneh'
 last_name = 'Yetayeh'
 country = 'Finland'
@@ -116,22 +117,22 @@ person_info = {
    }
 ```
 
-Let us use the _print()_ and _len()_ built-in functions. Print function takes unlimited number of arguments. An argument is a value which we can be passed or put inside the function parenthesis, see the example below.
+Utilisons les fonctions intégrées _print()_ et _len()_. La fonction Print prend un nombre illimité d'arguments. Un argument est une valeur qui peut être transmise ou placée entre les parenthèses de la fonction, voir l'exemple ci-dessous.
 
-**Example:**
+**Exemple:**
 
 ```py
-print('Hello, World!') # The text Hello, World! is an argument
-print('Hello',',', 'World','!') # it can take multiple arguments, four arguments have been passed
-print(len('Hello, World!')) # it takes only one argument
+print('Hello, World!') # Le texte Hello, World ! est un argument
+print('Hello',',', 'World','!') # il peut prendre plusieurs arguments, quatre arguments ont été transmis
+print(len('Hello, World!')) # il ne prend qu'un argument
 ```
 
-Let us print and also find the length of the variables declared at the top:
+Imprimons et trouvons également la longueur des variables déclarées en haut :
 
-**Example:**
+**Exemple:**
 
 ```py
-# Printing the values stored in the variables
+# Affichage des valeurs stockées dans les variables
 
 print('First name:', first_name)
 print('First name length:', len(first_name))
@@ -147,9 +148,9 @@ print('Person information: ', person_info)
 
 ### Declaring Multiple Variable in a Line
 
-Multiple variables can also be declared in one line:
+Plusieurs variables peuvent également être déclarées sur une même ligne :
 
-**Example:**
+**Exemple:**
 
 ```py
 first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
@@ -162,8 +163,8 @@ print('Age: ', age)
 print('Married: ', is_married)
 ```
 
-Getting user input using the _input()_ built-in function. Let us assign the data we get from a user into first_name and age variables.
-**Example:**
+Récupérer les données de l'utilisateur à l'aide de la fonction intégrée _input()_. Affectons les données obtenues d'un utilisateur aux variables first_name et age.
+**Exemple:**
 
 ```py
 first_name = input('What is your name: ')
@@ -175,22 +176,22 @@ print(age)
 
 ## Data Types
 
-There are several data types in Python. To identify the data type we use the _type_ built-in function. I would like to ask you to focus on understanding different data types very well. When it comes to programming, it is all about data types. I introduced data types at the very beginning and it comes again, because every topic is related to data types. We will cover data types in more detail in their respective sections.
+Il existe plusieurs types de données en Python. Pour identifier le type de données, nous utilisons la fonction intégrée _type_. J'aimerais vous demander de vous concentrer sur la compréhension des différents types de données. Lorsqu'il s'agit de programmation, tout tourne autour des types de données. J'ai présenté les types de données au tout début et j'y reviens, car chaque sujet est lié aux types de données. Nous aborderons les types de données plus en détail dans leurs sections respectives.
 
 ## Checking Data types and Casting
 
-- Check Data types: To check the data type of certain data/variable we use the _type_
-  **Example:**
+- Vérifier les types de données : Pour vérifier le type de données d'une certaine donnée/variable, nous utilisons la fonction _type_.
+  **Exemple:**
 
 ```py
-# Different python data types
-# Let's declare variables with various data types
+# Différents types de données en python
+# Déclarons des variables avec différents types de données
 
 first_name = 'Asabeneh'     # str
 last_name = 'Yetayeh'       # str
 country = 'Finland'         # str
 city= 'Helsinki'            # str
-age = 250                   # int, it is not my real age, don't worry about it
+age = 250                   # int, ce n'est pas mon âge réel, ne vous inquiétez pas.
 
 # Printing out types
 print(type('Asabeneh'))     # str
@@ -205,10 +206,10 @@ print(type((1,2)))                                              # tuple
 print(type(zip([1,2],[3,4])))                                   # set
 ```
 
-- Casting: Converting one data type to another data type. We use _int()_, _float()_, _str()_, _list_, _set_
-  When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with a string, the number should be first converted to a string. We will talk about concatenation in String section.
+- Casting : Conversion d'un type de données en un autre type de données. Nous utilisons _int()_, _float()_, _str()_, _list_, _set_
+  Lorsque nous effectuons des opérations arithmétiques, les chaînes de caractères doivent d'abord être converties en int ou en float, sous peine de générer une erreur. Si nous concaténons un nombre avec une chaîne de caractères, le nombre doit d'abord être converti en chaîne de caractères. Nous parlerons de la concaténation dans la section sur les chaînes de caractères.
 
-  **Example:**
+  **Exemple:**
 
 ```py
 # int to float
@@ -241,60 +242,60 @@ print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 
 ## Numbers
 
-Number data types in Python:
+Types de données numériques en Python:
 
-1. Integers: Integer(negative, zero and positive) numbers
-   Example:
+1. Integers: Entiers (les nombres négatifs, nuls et positifs)
+   Exemple:
    ... -3, -2, -1, 0, 1, 2, 3 ...
 
-2. Floating Point Numbers(Decimal numbers)
-   Example:
+2. Float: Nombres à virgule (nombres décimaux)
+   Exemple:
    ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-3. Complex Numbers
-   Example:
+3. Complex: Nombres complexe
+   Exemple:
    1 + j, 2 + 4j, 1 - 1j
 
-🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and muscles.
+🌕 Vous êtes génial(e). Vous venez de relever les défis du deuxième jour et vous avez fait deux pas en avant sur la voie de la grandeur. Maintenant, fais quelques exercices pour ton cerveau et tes muscles.
 
 ## 💻 Exercises - Day 2
 
 ### Exercises: Level 1
 
-1. Inside 30DaysOfPython create a folder called day_2. Inside this folder create a file named variables.py
-2. Write a python comment saying 'Day 2: 30 Days of python programming'
-3. Declare a first name variable and assign a value to it
-4. Declare a last name variable and assign a value to it
-5. Declare a full name variable and assign a value to it
-6. Declare a country variable and assign a value to it
-7. Declare a city variable and assign a value to it
-8. Declare an age variable and assign a value to it
-9. Declare a year variable and assign a value to it
-10. Declare a variable is_married and assign a value to it
-11. Declare a variable is_true and assign a value to it
-12. Declare a variable is_light_on and assign a value to it
-13. Declare multiple variable on one line
+1. Dans 30DaysOfPython, créez un dossier appelé day_2. Dans ce dossier, créez un fichier nommé variables.py
+2. Ecrivez un commentaire en python disant 'Day 2 : 30 Days of python programming' (Jour 2 : 30 jours de programmation en python)
+3. Déclarez une variable prénom et attribuez-lui une valeur.
+4. Déclarez une variable nom de famille et affectez-lui une valeur.
+5. Déclarer une variable nom complet et lui affecter une valeur
+6. Déclarer une variable pays et lui affecter une valeur
+7. Déclarez une variable city et affectez-lui une valeur.
+8. Déclarez une variable age et affectez-lui une valeur.
+9. Déclarez une variable year et affectez-lui une valeur.
+10. Déclarer une variable is_married et lui affecter une valeur.
+11. Déclarer une variable is_true et lui affecter une valeur
+12. Déclarer une variable is_light_on et lui affecter une valeur
+13. Déclarer plusieurs variables sur une même ligne
 
 ### Exercises: Level 2
 
-1. Check the data type of all your variables using type() built-in function
-1. Using the _len()_ built-in function, find the length of your first name
-1. Compare the length of your first name and your last name
-1. Declare 5 as num_one and 4 as num_two
-    1. Add num_one and num_two and assign the value to a variable total
-    2. Subtract num_two from num_one and assign the value to a variable diff
-    3. Multiply num_two and num_one and assign the value to a variable product
-    4. Divide num_one by num_two and assign the value to a variable division
-    5. Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
-    6. Calculate num_one to the power of num_two and assign the value to a variable exp
-    7. Find floor division of num_one by num_two and assign the value to a variable floor_division
-1. The radius of a circle is 30 meters.
-    1. Calculate the area of a circle and assign the value to a variable name of _area_of_circle_
-    2. Calculate the circumference of a circle and assign the value to a variable name of _circum_of_circle_
-    3. Take radius as user input and calculate the area.
-1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-1. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
+1. Vérifiez le type de données de toutes vos variables en utilisant la fonction intégrée type()
+1. En utilisant la fonction intégrée _len()_, trouvez la longueur de votre prénom
+1. Comparez la longueur de votre prénom et de votre nom de famille
+1. Déclarez 5 comme num_one et 4 comme num_two
+    1. Additionnez num_one et num_two et affectez la valeur à une variable total
+    2. Soustraire num_two de num_one et affecter la valeur à une variable diff
+    3. Multiplier num_two et num_one et affecter la valeur à une variable product
+    4. Diviser num_one par num_two et affecter la valeur à une variable division
+    5. Utiliser la division modulaire pour trouver num_two divisé par num_one et assigner la valeur à un reste variable.
+    6. Calculer num_one à la puissance de num_two et affecter la valeur à une variable exp
+    7. Trouver la division par le sol de num_one par num_two et assigner la valeur à une variable floor_division.
+1. Le rayon d'un cercle est de 30 mètres.
+    1. Calculez l'aire d'un cercle et affectez la valeur à une variable nommée _area_of_circle_
+    2. Calculez la circonférence d'un cercle et affectez la valeur à une variable nommée _circum_of_circle_
+    3. Prendre le rayon comme entrée utilisateur et calculer l'aire.
+1. Utiliser la fonction d'entrée intégrée pour obtenir le prénom, le nom, le pays et l'âge d'un utilisateur et stocker la valeur dans les noms de variables correspondants.
+1. Exécutez help('keywords') dans le shell Python ou dans votre fichier pour vérifier les mots réservés ou les mots-clés de Python.
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 FÉLICITATIONS ! 🎉
 
 [<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
