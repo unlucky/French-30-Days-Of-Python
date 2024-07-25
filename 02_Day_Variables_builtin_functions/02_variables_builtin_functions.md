@@ -98,7 +98,7 @@ Nous utiliserons le style standard de désignation des variables Python, qui a �
 
 Lorsque nous attribuons un certain type de données à une variable, il s'agit d'une déclaration de variable. Par exemple, dans l'exemple ci-dessous, mon prénom est assigné à la variable first_name. Le signe égal est un opérateur d'affectation. Assigner signifie stocker des données dans la variable. Le signe égal en Python n'est pas une égalité comme en mathématiques.
 
-_Example:_
+_Exemple:_
 
 ```py
 # Variables en Python
