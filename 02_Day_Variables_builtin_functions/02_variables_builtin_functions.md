@@ -33,7 +33,7 @@
 
 ## Fonctions intégrées
 
-En Python, nous disposons de nombreuses fonctions intégrées. Les fonctions intégrées sont globalement disponibles, ce qui signifie que vous pouvez les utiliser sans les importer ni les configurer. Les fonctions intégrées les plus couramment utilisées en Python sont les suivantes : _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, _open()_, _file()_, _help()_, et _dir()_. Le tableau suivant présente une liste exhaustive des fonctions intégrées de Python, tirée de la [documentation python] (https://docs.python.org/3.9/library/functions.html).
+En Python, nous disposons de nombreuses fonctions intégrées. Les fonctions intégrées sont globalement disponibles, ce qui signifie que vous pouvez les utiliser sans les importer ni les configurer. Les fonctions intégrées les plus couramment utilisées en Python sont les suivantes : _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, _open()_, _file()_, _help()_, et _dir()_. Le tableau suivant présente une liste exhaustive des fonctions intégrées de Python, tirée de la [documentation python](https://docs.python.org/3.9/library/functions.html).
 
 ![Built-in Functions](../images/builtin-functions.png)
 
