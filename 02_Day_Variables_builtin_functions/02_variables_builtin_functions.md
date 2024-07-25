@@ -19,19 +19,19 @@
 ![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
 
 - [📘 Day 2](#-day-2)
-  - [Built in functions](#built-in-functions)
+  - [Fonctions intégrées](#fonctions-intégrées)
   - [Variables](#variables)
-    - [Declaring Multiple Variable in a Line](#declaring-multiple-variable-in-a-line)
-  - [Data Types](#data-types)
-  - [Checking Data types and Casting](#checking-data-types-and-casting)
-  - [Numbers](#numbers)
-  - [💻 Exercises - Day 2](#-exercises---day-2)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
+    - [Déclarer plusieurs variables dans une ligne](#déclarer-plusieurs-variables-dans-une-ligne)
+  - [Types de données](#types-de-données)
+  - [Vérification des types de données et changements](#vérification-des-types-de-données-et-changements)
+  - [Nombres](#nombres)
+  - [💻 Exercises - Jour 2](#-exercises---jour-2)
+    - [Exercises: Niveau 1](#exercises-niveau-1)
+    - [Exercises: Niveau 2](#exercises-niveau-2)
 
-# 📘 Day 2
+# 📘 Jour 2
 
-## Built in functions
+## Fonctions intégrées
 
 En Python, nous disposons de nombreuses fonctions intégrées. Les fonctions intégrées sont globalement disponibles, ce qui signifie que vous pouvez les utiliser sans les importer ni les configurer. Les fonctions intégrées les plus couramment utilisées en Python sont les suivantes : _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, _open()_, _file()_, _help()_, et _dir()_. Le tableau suivant présente une liste exhaustive des fonctions intégrées de Python, tirée de la [documentation python] (https://docs.python.org/3.9/library/functions.html).
 
@@ -146,7 +146,7 @@ print('Skills: ', skills)
 print('Person information: ', person_info)
 ```
 
-### Declaring Multiple Variable in a Line
+### Déclarer plusieurs variables dans une ligne
 
 Plusieurs variables peuvent également être déclarées sur une même ligne :
 
@@ -174,11 +174,11 @@ print(first_name)
 print(age)
 ```
 
-## Data Types
+## Types de données
 
 Il existe plusieurs types de données en Python. Pour identifier le type de données, nous utilisons la fonction intégrée _type_. J'aimerais vous demander de vous concentrer sur la compréhension des différents types de données. Lorsqu'il s'agit de programmation, tout tourne autour des types de données. J'ai présenté les types de données au tout début et j'y reviens, car chaque sujet est lié aux types de données. Nous aborderons les types de données plus en détail dans leurs sections respectives.
 
-## Checking Data types and Casting
+## Vérification des types de données et changements
 
 - Vérifier les types de données : Pour vérifier le type de données d'une certaine donnée/variable, nous utilisons la fonction _type_.
   **Exemple:**
@@ -240,7 +240,7 @@ first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```
 
-## Numbers
+## Nombres
 
 Types de données numériques en Python:
 
@@ -258,9 +258,9 @@ Types de données numériques en Python:
 
 🌕 Vous êtes génial(e). Vous venez de relever les défis du deuxième jour et vous avez fait deux pas en avant sur la voie de la grandeur. Maintenant, fais quelques exercices pour ton cerveau et tes muscles.
 
-## 💻 Exercises - Day 2
+## 💻 Exercises - Jour 2
 
-### Exercises: Level 1
+### Exercises: Niveau 1
 
 1. Dans 30DaysOfPython, créez un dossier appelé day_2. Dans ce dossier, créez un fichier nommé variables.py
 2. Ecrivez un commentaire en python disant 'Day 2 : 30 Days of python programming' (Jour 2 : 30 jours de programmation en python)
@@ -276,7 +276,7 @@ Types de données numériques en Python:
 12. Déclarer une variable is_light_on et lui affecter une valeur
 13. Déclarer plusieurs variables sur une même ligne
 
-### Exercises: Level 2
+### Exercises: Niveau 2
 
 1. Vérifiez le type de données de toutes vos variables en utilisant la fonction intégrée type()
 1. En utilisant la fonction intégrée _len()_, trouvez la longueur de votre prénom
@@ -298,4 +298,4 @@ Types de données numériques en Python:
 
 🎉 FÉLICITATIONS ! 🎉
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
+[<< Jour 1](../readme.md) | [Jour 3 >>](../03_Day_Operators/03_operators.md)
