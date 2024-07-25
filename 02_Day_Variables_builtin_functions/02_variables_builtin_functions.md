@@ -18,7 +18,7 @@
 
 ![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
 
-- [📘 Day 2](#-day-2)
+- [📘 Jour 2](#-jour-2)
   - [Fonctions intégrées](#fonctions-intégrées)
   - [Variables](#variables)
     - [Déclarer plusieurs variables dans une ligne](#déclarer-plusieurs-variables-dans-une-ligne)
