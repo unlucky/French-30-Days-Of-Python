@@ -13,42 +13,42 @@
 </sub>
 </div>
 
-[<< Day 2](../02_Day_Variables_builtin_functions/02_variables_builtin_functions.md) | [Day 4 >>](../04_Day_Strings/04_strings.md)
+[<< Jour 2](../02_Day_Variables_builtin_functions/02_variables_builtin_functions.md) | [Jour 4 >>](../04_Day_Strings/04_strings.md)
 
 ![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
 
-- [📘 Day 3](#-day-3)
-  - [Boolean](#boolean)
-  - [Operators](#operators)
-    - [Assignment Operators](#assignment-operators)
-    - [Arithmetic Operators:](#arithmetic-operators)
-    - [Comparison Operators](#comparison-operators)
-    - [Logical Operators](#logical-operators)
-  - [💻 Exercises - Day 3](#-exercises---day-3)
+- [📘 Jour 3](#jour-3)
+  - [Booléen](#booléen)
+  - [Opérateurs](#opérateurs)
+    - [Opérateurs affectation](#opérateurs-affectation)
+    - [Opérateurs arithmétiques](#opérateurs-arithmétiques)
+    - [Opérateurs de comparaison](#opérateurs-de-comparaison)
+    - [Opérateurs logiques](#opérateurs-logiques)
+  - [💻 Exercices - Jour 3](#-exercices--jour-3)
 
 # 📘 Day 3
 
-## Boolean
+## Booléen
 
-A boolean data type represents one of the two values: _True_ or _False_. The use of these data types will be clear once we start using the comparison operator. The first letter **T** for True and **F** for False should be capital unlike JavaScript.
-**Example: Boolean Values**
+Un type de données booléen représente l'une des deux valeurs suivantes : _True_ ou _False_. L'utilisation de ces types de données sera claire lorsque nous commencerons à utiliser l'opérateur de comparaison. La première lettre **T** pour True et **F** pour False doit être en majuscule contrairement à JavaScript.
+**Exemple : Valeurs booléennes**
 
 ```py
 print(True)
 print(False)
 ```
 
-## Operators
+## Opérateurs
 
-Python language supports several types of operators. In this section, we will focus on few of them.
+Le langage Python prend en charge plusieurs types d'opérateurs. Dans cette section, nous nous concentrerons sur quelques-uns d'entre eux.
 
-### Assignment Operators
+### Opérateurs affectation
 
-Assignment operators are used to assign values to variables. Let us take = as an example. Equal sign in mathematics shows that two values are equal, however in Python it means we are storing a value in a certain variable and we call it assignment or a assigning value to a variable. The table below shows the different types of python assignment operators, taken from [w3school](https://www.w3schools.com/python/python_operators.asp).
+Les opérateurs d'affectation sont utilisés pour attribuer des valeurs aux variables. Prenons l'exemple de =. En mathématiques, le signe égal indique que deux valeurs sont égales, mais en Python, il signifie que nous stockons une valeur dans une certaine variable et nous l'appelons affectation ou assignation d'une valeur à une variable. Le tableau ci-dessous présente les différents types d'opérateurs d'affectation en Python, tirés de [w3school](https://www.w3schools.com/python/python_operators.asp).
 
 ![Assignment Operators](../images/assignment_operators.png)
 
-### Arithmetic Operators:
+### Opérateurs arithmétiques:
 
 - Addition(+): a + b
 - Subtraction(-): a - b
@@ -60,51 +60,51 @@ Assignment operators are used to assign values to variables. Let us take = as an
 
 ![Arithmetic Operators](../images/arithmetic_operators.png)
 
-**Example:Integers**
+**Exemple : nombres entiers**
 
 ```py
-# Arithmetic Operations in Python
+# Opérations arithmétiques en Python
 # Integers
 
 print('Addition: ', 1 + 2)        # 3
 print('Subtraction: ', 2 - 1)     # 1
 print('Multiplication: ', 2 * 3)  # 6
-print ('Division: ', 4 / 2)       # 2.0  Division in Python gives floating number
-print('Division: ', 6 / 2)        # 3.0         
+print ('Division: ', 4 / 2)       # 2.0  La division en Python donne un float
+print('Division: ', 6 / 2)        # 3.0
 print('Division: ', 7 / 2)        # 3.5
-print('Division without the remainder: ', 7 // 2)   # 3,  gives without the floating number or without the remaining
+print('Division without the remainder: ', 7 // 2)   # 3,  donne sans le nombre flottant ou sans le reste
 print ('Division without the remainder: ',7 // 3)   # 2
-print('Modulus: ', 3 % 2)         # 1, Gives the remainder
-print('Exponentiation: ', 2 ** 3) # 9 it means 2 * 2 * 2
+print('Modulus: ', 3 % 2)         # 1, Donne le reste
+print('Exponentiation: ', 2 ** 3) # 9 cela signifie 2 * 2 * 2
 ```
 
-**Example:Floats**
+**Exemple : Floats**
 
 ```py
-# Floating numbers
+# Nombres flottants
 print('Floating Point Number, PI', 3.14)
 print('Floating Point Number, gravity', 9.81)
 ```
 
-**Example:Complex numbers**
+**Exemple : Nombres complexes**
 
 ```py
-# Complex numbers
+# Nombres complexes
 print('Complex number: ', 1 + 1j)
 print('Multiplying complex numbers: ',(1 + 1j) * (1 - 1j))
 ```
 
-Let's declare a variable and assign a number data type. I am going to use single character variable but remember do not develop a habit of declaring such types of variables. Variable names should be all the time mnemonic.
+Déclarons une variable et attribuons-lui un type de données numérique. Je vais utiliser une variable à caractère unique, mais n'oubliez pas de ne pas prendre l'habitude de déclarer ce type de variables. Les noms de variables doivent toujours être mnémotechniques.
 
-**Example:**
+**Exemple:**
 
 ```python
-# Declaring the variable at the top first
+# Déclarer d'abord la variable en haut de page
 
-a = 3 # a is a variable name and 3 is an integer data type
-b = 2 # b is a variable name and 3 is an integer data type
+a = 3 # a est un nom de variable et 3 est un type de données entier
+b = 2 # b est un nom de variable et 3 est un type de données entier
 
-# Arithmetic operations and assigning the result to a variable
+# Opérations arithmétiques et affectation du résultat à une variable
 total = a + b
 diff = a - b
 product = a * b
@@ -113,8 +113,8 @@ remainder = a % b
 floor_division = a // b
 exponential = a ** b
 
-# I should have used sum instead of total but sum is a built-in function - try to avoid overriding built-in functions
-print(total) # if you do not label your print with some string, you never know where the result is coming from
+# J'aurais dû utiliser sum au lieu de total, mais sum est une fonction intégrée - essayez d'éviter d'écraser les fonctions intégrées.
+print(total) # si vous n'étiquetez pas votre affichage avec une chaîne de caractères, vous ne saurez jamais d'où vient le résultat
 print('a + b = ', total)
 print('a - b = ', diff)
 print('a * b = ', product)
@@ -124,23 +124,23 @@ print('a // b = ', floor_division)
 print('a ** b = ', exponentiation)
 ```
 
-**Example:**
+**Exemple:**
 
 ```py
 print('== Addition, Subtraction, Multiplication, Division, Modulus ==')
 
-# Declaring values and organizing them together
+# Déclarer des valeurs et les organiser ensemble
 num_one = 3
 num_two = 4
 
-# Arithmetic operations
+# Opérations arithmétiques
 total = num_one + num_two
 diff = num_two - num_one
 product = num_one * num_two
 div = num_two / num_one
 remainder = num_two % num_one
 
-# Printing values with label
+# Impression des valeurs avec étiquette
 print('total: ', total)
 print('difference: ', diff)
 print('product: ', product)
@@ -148,50 +148,50 @@ print('division: ', div)
 print('remainder: ', remainder)
 ```
 
-Let us start start connecting the dots and start making use of what we already know to calculate (area, volume,density,  weight, perimeter, distance, force).
+Commençons à relier les points et à utiliser ce que nous savons déjà calculer (surface, volume, densité, poids, périmètre, distance, force).
 
-**Example:**
+**Exemple:**
 
 ```py
-# Calculating area of a circle
-radius = 10                                 # radius of a circle
-area_of_circle = 3.14 * radius ** 2         # two * sign means exponent or power
+# Calculer l'aire d'un cercle
+radius = 10                                 # rayon d'un cercle
+area_of_circle = 3.14 * radius ** 2         # deux * signifient exposant ou puissance
 print('Area of a circle:', area_of_circle)
 
-# Calculating area of a rectangle
+# Calculer l'aire d'un rectangle
 length = 10
 width = 20
 area_of_rectangle = length * width
 print('Area of rectangle:', area_of_rectangle)
 
-# Calculating a weight of an object
+# Calculer le poids d'un objet
 mass = 75
 gravity = 9.81
 weight = mass * gravity
-print(weight, 'N')                         # Adding unit to the weight
+print(weight, 'N')                         # Ajouter une unité au poids
 
-# Calculate the density of a liquid
-mass = 75 # in Kg
-volume = 0.075 # in cubic meter
+# Calculer la densité d'un liquide
+mass = 75 # en kg
+volume = 0.075 # en mètre cube
 density = mass / volume # 1000 Kg/m^3
 
 ```
 
-### Comparison Operators
+### Opérateurs de comparaison
 
-In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value. The following table shows Python comparison operators which was taken from [w3shool](https://www.w3schools.com/python/python_operators.asp).
+En programmation, nous comparons des valeurs, nous utilisons des opérateurs de comparaison pour comparer deux valeurs. Nous vérifions si une valeur est supérieure, inférieure ou égale à une autre valeur. Le tableau suivant présente les opérateurs de comparaison Python, tirés de [w3shool](https://www.w3schools.com/python/python_operators.asp).
 
 ![Comparison Operators](../images/comparison_operators.png)
-**Example: Comparison Operators**
+**Exemple : Opérateurs de comparaison**
 
 ```py
-print(3 > 2)     # True, because 3 is greater than 2
-print(3 >= 2)    # True, because 3 is greater than 2
-print(3 < 2)     # False,  because 3 is greater than 2
-print(2 < 3)     # True, because 2 is less than 3
-print(2 <= 3)    # True, because 2 is less than 3
-print(3 == 2)    # False, because 3 is not equal to 2
-print(3 != 2)    # True, because 3 is not equal to 2
+print(3 > 2) # True, car 3 est plus grand que 2
+print(3 >= 2) # True, car 3 est plus grand que 2
+print(3 < 2) # False, car 3 est plus grand que 2
+print(2 < 3) # True, car 2 est inférieur à 3
+print(2 <= 3) # True, car 2 est inférieur à 3
+print(3 == 2) # False, car 3 n'est pas égal à 2
+print(3 != 2) # True, car 3 n'est pas égal à 2
 print(len('mango') == len('avocado'))  # False
 print(len('mango') != len('avocado'))  # True
 print(len('mango') < len('avocado'))   # True
@@ -201,61 +201,60 @@ print(len('tomato') == len('potato'))  # True
 print(len('python') > len('dragon'))   # False
 
 
-# Comparing something gives either a True or False
+# En comparant quelque chose, on obtient un True ou un False.
 
 print('True == True: ', True == True)
 print('True == False: ', True == False)
 print('False == False:', False == False)
 ```
 
-In addition to the above comparison operator Python uses:
+En plus de l'opérateur de comparaison ci-dessus, Python utilise :
 
-- _is_: Returns true if both variables are the same object(x is y)
-- _is not_: Returns true if both variables are not the same object(x is not y)
-- _in_: Returns True if the queried list contains a certain item(x in y)
-- _not in_: Returns True if the queried list doesn't have a certain item(x in y)
+- _is_ : Retourne vrai si les deux variables sont le même objet(x is y)
+- _is not_ : Retourne vrai si les deux variables ne sont pas le même objet (x n'est pas y)
+- _in_ : Retourne True si la liste interrogée contient un certain élément(x in y)
+- _not in_ : Retourne True si la liste interrogée ne contient pas un certain élément(x in y)
 
 ```py
-print('1 is 1', 1 is 1)                   # True - because the data values are the same
-print('1 is not 2', 1 is not 2)           # True - because 1 is not 2
-print('A in Asabeneh', 'A' in 'Asabeneh') # True - A found in the string
-print('B in Asabeneh', 'B' in 'Asabeneh') # False - there is no uppercase B
-print('coding' in 'coding for all') # True - because coding for all has the word coding
+print('1 is 1', 1 is 1)                   # True - parce que les valeurs des données sont les mêmes
+print('1 is not 2', 1 is not 2)           # True - parce que 1 n'est pas 2
+print('A in Asabeneh', 'A' in 'Asabeneh') # True - A trouvé dans la chaîne
+print('B in Asabeneh', 'B' in 'Asabeneh') # False - il n'y a pas de B majuscule
+print('coding' in 'coding for all') # True - parce que coding for all contient le mot coding
 print('a in an:', 'a' in 'an')      # True
 print('4 is 2 ** 2:', 4 is 2 ** 2)   # True
 ```
 
-### Logical Operators
+### Opérateurs logiques
 
-Unlike other programming languages python uses keywords _and_, _or_ and _not_ for logical operators. Logical operators are used to combine conditional statements:
+Contrairement à d'autres langages de programmation, Python utilise les mots-clés _and_, _or_ et _not_ pour les opérateurs logiques. Les opérateurs logiques sont utilisés pour combiner des déclarations conditionnelles :
 
 ![Logical Operators](../images/logical_operators.png)
 
 ```py
-print(3 > 2 and 4 > 3) # True - because both statements are true
-print(3 > 2 and 4 < 3) # False - because the second statement is false
-print(3 < 2 and 4 < 3) # False - because both statements are false
-print('True and True: ', True and True)
-print(3 > 2 or 4 > 3)  # True - because both statements are true
-print(3 > 2 or 4 < 3)  # True - because one of the statements is true
-print(3 < 2 or 4 < 3)  # False - because both statements are false
-print('True or False:', True or False)
-print(not 3 > 2)     # False - because 3 > 2 is true, then not True gives False
-print(not True)      # False - Negation, the not operator turns true to false
-print(not False)     # True
-print(not not True)  # True
+print(3 > 2 and 4 > 3) # True - parce que les deux déclarations sont vraies
+print(3 > 2 and 4 < 3) # False - parce que la deuxième affirmation est fausse
+print(3 < 2 and 4 < 3) # False - parce que les deux déclarations sont fausses
+print('True et True : ', True and True)
+print(3 > 2 or 4 > 3) # True - parce que les deux déclarations sont vraies
+print(3 > 2 or 4 < 3) # True - parce que l'une des affirmations est vraie
+print(3 < 2 or 4 < 3) # False - parce que les deux déclarations sont fausses
+print('True ou False:', True or False)
+print(not 3 > 2) # False - parce que 3 > 2 est vrai, alors not True donne False
+print(not True) # False - La négation, l'opérateur not transforme true en false
+print(not False) # True
+print(not not True) # True
 print(not not False) # False
-
 ```
 
-🌕 You have boundless energy. You have just completed day 3 challenges and you are three steps ahead on your way to greatness. Now do some exercises for your brain and your muscles.
+🌕 Vous avez une énergie débordante. Vous venez de relever les défis du troisième jour et vous avez fait trois pas en avant sur la voie de la grandeur. Maintenant, faites quelques exercices pour votre cerveau et vos muscles.
 
-## 💻 Exercises - Day 3
+## 💻 Exercises - Jour 3
 
-1. Declare your age as integer variable
-2. Declare your height as a float variable
-3. Declare a variable that store a complex number
-4. Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
+1. Déclarez votre âge comme une variable entière
+2. Déclarez votre taille comme une variable flottante
+3. Déclarez une variable qui stocke un nombre complexe
+4. Ecrivez un script qui demande à l'utilisateur d'entrer la base et la hauteur du triangle et calculez l'aire de ce triangle (aire = 0,5 x b x h).
 
 ```py
     Enter base: 20
@@ -263,7 +262,7 @@ print(not not False) # False
     The area of the triangle is 100
 ```
 
-5. Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
+5. Écrivez un script qui invite l'utilisateur à saisir le côté a, le côté b et le côté c du triangle. Calculez le périmètre du triangle (périmètre = a + b + c).
 
 ```py
 Enter side a: 5
@@ -272,22 +271,22 @@ Enter side c: 3
 The perimeter of the triangle is 12
 ```
 
-6. Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
-7. Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
-8. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-9. Slope is (m = y2-y1/x2-x1). Find the slope and [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between point (2, 2) and point (6,10) 
-10. Compare the slopes in tasks 8 and 9.
-11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
-12. Find the length of 'python' and 'dragon' and make a falsy comparison statement.
-13. Use _and_ operator to check if 'on' is found in both 'python' and 'dragon'
-14. _I hope this course is not full of jargon_. Use _in_ operator to check if _jargon_ is in the sentence.
-15. There is no 'on' in both dragon and python
-16. Find the length of the text _python_ and convert the value to float and convert it to string
-17. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
-18. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
-19. Check if type of '10' is equal to type of 10
-20. Check if int('9.8') is equal to 10
-21. Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+6. Obtenir la longueur et la largeur d'un rectangle à l'aide de l'invite. Calculez sa surface (surface = longueur x largeur) et son périmètre (périmètre = 2 x (longueur + largeur)).
+7. Obtenez le rayon d'un cercle à l'aide de l'invite. Calculez l'aire (aire = pi x r x r) et la circonférence (c = 2 x pi x r) où pi = 3,14.
+8. Calculez la pente, l'ordonnée à l'origine et l'ordonnée à l'origine de y = 2x -2.
+9. La pente est (m = y2-y1/x2-x1). Trouvez la pente et la [distance euclidienne] (https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) entre le point (2, 2) et le point (6,10).
+10. Comparez les pentes dans les tâches 8 et 9.
+11. Calculez la valeur de y (y = x^2 + 6x + 9). Essayez d'utiliser différentes valeurs de x et de déterminer à quelle valeur de x y sera égal à 0.
+12. Trouvez la longueur de « python » et de « dragon » et faites une déclaration de comparaison fiable.
+13. Utilisez l'opérateur _et_ pour vérifier si « on » se trouve à la fois dans « python » et dans « dragon
+14. Le système de gestion de l'information est un système de gestion de l'information qui permet à l'utilisateur d'avoir accès à l'information. Utilisez l'opérateur _in_ pour vérifier si _jargon_ se trouve dans la phrase.
+15. Il n'y a pas de « on » dans dragon et python.
+16. Trouvez la longueur du texte _python_ et convertissez la valeur en float et convertissez-la en chaîne de caractères.
+17. Les nombres pairs sont divisibles par 2 et le reste est zéro. Comment vérifier si un nombre est pair ou non en utilisant python ?
+18. Vérifiez si la division floor de 7 par 3 est égale à la valeur convertie int de 2.7.
+19. Vérifiez si le type '10' est égal au type 10.
+20. Vérifier si int('9.8') est égal à 10
+21. Rédigez un script qui invite l'utilisateur à saisir les heures et le taux horaire. Calculez la rémunération de la personne ?
 
 ```py
 Enter hours: 40
@@ -295,14 +294,14 @@ Enter rate per hour: 28
 Your weekly earning is 1120
 ```
 
-22. Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+22. Écrire un script qui invite l'utilisateur à entrer le nombre d'années. Calculez le nombre de secondes qu'une personne peut vivre. Supposons qu'une personne puisse vivre cent ans
 
 ```py
 Enter number of years you have lived: 100
 You have lived for 3153600000 seconds.
 ```
 
-23. Write a Python script that displays the following table
+23. Écrivez un script Python qui affiche le tableau suivant
 
 ```py
 1 1 1 1 1
@@ -312,6 +311,6 @@ You have lived for 3153600000 seconds.
 5 1 5 25 125
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 FÉLICITATIONS ! 🎉
 
-[<< Day 2](../02_Day_Variables_builtin_functions/02_variables_builtin_functions.md) | [Day 4 >>](../04_Day_Strings/04_strings.md)
+[<< Jour 2](../02_Day_Variables_builtin_functions/02_variables_builtin_functions.md) | [Jour 4 >>](../04_Day_Strings/04_strings.md)
